@@ -1,3 +1,27 @@
-IDS
 T0/S1
-Local Government Used Character(JMJ)
+Similar Ideographs
+UTC Evidence (Figure No.)
+Similar Ideographs
+UTC Evidence (Title)
+UTC Evidence (Location)
+UTC kTotalStrokes
+UTC Ext. F2 Serial No.
+T References to evidence documents A
+T References to evidence documents B
+T File name of evidence image
+T kTotal Strokes
+K Ref. to Evidence doc
+K file name of evidence image
+G Ref. to Evidence doc
+G Page No. in Evidence file(optional)
+G Row No. in Evidence file(optional)
+G Position in the Row (optional)
+G file name of evidence image
+G kTotalStrokes	SAT kTotalStrokes
+UK Ref. to Evidence doc
+UK file name of evidence image
+UK Font code point
+UK Font glyph
+UK Other source references
+UK Mapping to traditional or simplified character
+UK Total stroke count	UK Note

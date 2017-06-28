@@ -1,25 +1,28 @@
 <p style="text-align:center">[title]</p>
 <table border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none" width="100%">
  <tr>
-  <td width="10%" style="border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p align="center" style="text-align:center;font-size:11pt">CJK_F<br/>Seq. No.</p>
+  <td width="6%" style="border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:11pt">CJK_2015<br/>Seq. No.</p>
   </td>
-  <td width="13%" colspan=2 style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
-  <p align="center" style="text-align:center;font-size:11pt;layout-grid-mode:char">Kxi<br/>Rad<br/>Stroke Fs</p>
-  </td>
-  <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
-  <p align="center" style="text-align:center;font-size:11pt">G Hz<br/>G Source</p>
+  <td width="8%" colspan=2 style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:11pt;layout-grid-mode:char">Kxi Rad<br/>IDS<br/>SC FS</p>
   </td>
   <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
-  <p align="center" style="text-align:center;font-size:11pt">J Hz<br/>J Source</p>
+  <p align="center" style="text-align:center;font-size:11pt">G</p>
   </td>
   <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
-  <p align="center" style="text-align:center;font-size:11pt">K Hz<br/>K Source</p>
+  <p align="center" style="text-align:center;font-size:11pt">T</p>
   </td>
   <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
-  <p align="center" style="text-align:center;font-size:11pt">Sat Hz<br/>Sat Source</p>
+  <p align="center" style="text-align:center;font-size:11pt">K</p>
   </td>
-  <td width="37%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:11pt">SAT</p>
+  </td>
+  <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:11pt">UTC</p>
+  </td>
+  <td width="36%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
   <p align="center" style="text-align:center;font-size:11pt">Discussion Record</p>
   </td>
  </tr>
