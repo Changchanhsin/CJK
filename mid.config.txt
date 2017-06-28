@@ -1,0 +1,36 @@
+ <tr>
+  <td rowspan="3" style="border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:46pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[bmp]" width="32" height="32" border="0"><br/>[CJK_F v1.0 Seq. No.]</p>
+  </td>
+  <td colspan="2" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center">[KangXi Radical Code]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[G Glyph Image file name]" width="32" height="32" border="0"><br/>[G Source Reference]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[J Glyph Image file name]" width="32" height="32" border="0"><br/>[J Source Reference]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[K Glyph Image file name]" width="32" height="32" border="0"><br/>[K Source Reference]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[SAT Glyph Image file name]" width="32" height="32" border="0"><br/>[SAT Source Reference]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:left;font-size:10pt">[Disscusion Record]</p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:10pt">&#[kangxiRadical];</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:10pt">[Stroke Count]</p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:10pt">[First Stroke]</p>
+  </td>
+  </tr>
