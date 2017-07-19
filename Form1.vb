@@ -4,13 +4,14 @@
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
         MessageBox.Show("A converter for CJK_G." & vbCrLf & vbCrLf & _
                         "1、准备excel文件；" & vbCrLf & "2、将xls转换为html；" & vbCrLf & _
-                        "3、建议用IE 10（windows 8）打开html并打印（acrobat）为PDF(横向上下13mm)。" & vbCrLf & _
+                        "3、建议用Chrome打开html并通过Chrome打印为PDF(横向上下13mm)。" & vbCrLf & _
                         vbCrLf & _
                         "Version 0.1.0.5, (c) 2012, CESI, zzx" & vbCrLf & _
                         "2012-12-07, 昆山;" & vbCrLf & _
                         "2014-06-06, 亦庄;" & vbCrLf & _
                         "2015-11-06, 雍和宫;" & vbCrLf & _
-                        "2016-06-29, 远望楼.", _
+                        "2016-06-29, 远望楼." & vbCrLf & _
+                        "2017-07-19, 雍和宫.", _
                         "about www.cesi.cn/info/chinesegroup/CJK_G", _
                         MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, _
                         MessageBoxOptions.DefaultDesktopOnly, False)
@@ -57,14 +58,18 @@
         Dim conn As New OleDb.OleDbConnection
         Dim schemaTable As DataTable
 
-        conn.ConnectionString = strConn
-        conn.Open()
-        schemaTable = conn.GetOleDbSchemaTable(System.Data.OleDb.OleDbSchemaGuid.Tables, Nothing)
-        lstSourceSheets.Items.Clear()
-        For i = 0 To schemaTable.Rows.Count - 1
-            lstSourceSheets.Items.Add(schemaTable.Rows(i).Item(2).ToString)
-        Next
-        conn.Close()
+        Try
+            conn.ConnectionString = strConn
+            conn.Open()
+            schemaTable = conn.GetOleDbSchemaTable(System.Data.OleDb.OleDbSchemaGuid.Tables, Nothing)
+            lstSourceSheets.Items.Clear()
+            For i = 0 To schemaTable.Rows.Count - 1
+                lstSourceSheets.Items.Add(schemaTable.Rows(i).Item(2).ToString)
+            Next
+            conn.Close()
+        Catch ex As Exception
+            MessageBox.Show("无法打开文件《" + txtSourcePath.Text + txtSourceFile.Text + "》", "错误", MessageBoxButtons.OK)
+        End Try
     End Sub
 
     Private Function DatabaseOpen(ByVal strConn As String, ByVal strTableName As String) As DataSet
@@ -97,7 +102,7 @@
 
         '0   1     2   3      4  5   6       7   8       9   10      11    12        13
         'bmp,CJK_F,kxi,stroke,fs,ghz,gsource,jhz,jsource,khz,ksource,sathz,satsource,disscusion
-        Dim bmp, kxi As String
+        Dim bmp, strokes, kxi As String
         
 
         Dim strConn As String = "Provider=Microsoft.Jet.OLEDB.4.0;" + "Data Source=" + txtSourcePath.Text + txtSourceFile.Text + ";" + "Extended Properties=Excel 8.0;"
@@ -149,6 +154,7 @@
                 sDest = TextBox4.Text
                 Application.DoEvents()
                 bmp = ""
+                strokes = ""
                 kxi = ""
 
                 For k = ds.Tables(0).Columns.Count - 1 To 0 Step -1
@@ -157,14 +163,19 @@
                         If InStr(dMap(k), " Image") > 0 And sCurrCell <> "" Then
                             bmp = sCurrCell
                         End If
+                        If InStr(dMap(k), "Total") > 0 And sCurrCell <> "" Then
+                            strokes = sCurrCell
+                        End If
                         For l = 1 To Len(sCurrCell)
-                            If (AscW(Mid(sCurrCell, l, 1))) > 256 Then
-                                txtOutputMessage.Text = txtOutputMessage.Text & vbCrLf & "Page" & iPage & ",line" & iline & ", bichar" & Mid(sCurrCell, l, 1) & " at '" & dMap(k) & "'"
-                            ElseIf (AscW(Mid(sCurrCell, l, 1))) > 65535 Then
+                            'If (AscW(Mid(sCurrCell, l, 1))) > 256 Then
+                            'txtOutputMessage.Text = txtOutputMessage.Text & vbCrLf & "Page" & iPage & ",line" & iline & ", bichar" & Mid(sCurrCell, l, 1) & " at '" & dMap(k) & "'"
+                            'Else
+                            If (AscW(Mid(sCurrCell, l, 1))) > 65535 Then
                                 txtOutputMessage.Text = txtOutputMessage.Text & vbCrLf & "Page" & iPage & ",line" & iline & ", exchar" & Mid(sCurrCell, l, 1) & " at '" & dMap(k) & "'"
                             End If
                         Next
 
+                        ' 字段名必须是“kangxi radical”，不区分大小写
                         If InStr(dMap(k).ToLower, "kangxi radical") > 0 Then
                             kxi = Val(sCurrCell)
                         End If
@@ -174,9 +185,13 @@
                 Next
 
                 ' ext HTML
-                sDest = sDest.Replace("[bmp]", bmp)
+                ' 内部字段名：_bmp_，_strokes_，_kangxiRadical_
+                sDest = sDest.Replace("[_bmp_]", bmp)
+                sDest = sDest.Replace("[_strokes_]", strokes)
+
                 Try
-                    sDest = sDest.Replace("[kangxiRadical]", Trim(Str(Int(kxi) + 12031)))
+                    sDest = sDest.Replace("[_kangxiRadical_]", Trim(Str(Int(kxi) + 12031)))
+                    'sDest = sDest.Replace("[_kangxiRadical_]", Trim(Str(Int(kxi) + 39969)))
                 Catch ex
                     txtOutputMessage.Text = txtOutputMessage.Text & vbCrLf & "Err on page" & iPage & ",line" & iline & ", kxi=" & kxi
                 End Try
@@ -197,7 +212,7 @@
                     If iPage Mod iPageMax = 0 Then
 
                         ' to HTML
-                        SaveUTF8(TextBox3.Text & sPage & TextBox5.Text, txtSourcePath.Text & da & Int(j / iPageMax) & ".html")
+                        SaveUTF8(Replace(TextBox3.Text, "[title]", da) & sPage & TextBox5.Text, txtSourcePath.Text & da & Int(j / iPageMax) & ".html")
                         sPage = ""
 
                     End If
@@ -317,4 +332,7 @@ errSave:
         Me.AcceptButton = btnGenerateOutput
     End Sub
 
+    Private Sub TextBox8_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox8.TextChanged
+
+    End Sub
 End Class

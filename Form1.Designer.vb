@@ -335,7 +335,7 @@ Partial Class Form1
         Me.TextBox8.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.TextBox8.Size = New System.Drawing.Size(145, 62)
         Me.TextBox8.TabIndex = 13
-        Me.TextBox8.Text = "IDS" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "T0/S1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Local Government Used Character(JMJ)"
+        Me.TextBox8.Text = resources.GetString("TextBox8.Text")
         '
         'Label12
         '

@@ -1,0 +1,14 @@
+D:\zhangzx\工作\Documents\GitHub\CJK_G\obj\Debug\ResolveAssemblyReference.cache
+D:\zhangzx\工作\Documents\GitHub\CJK_G\obj\Debug\CESI_Info_ChineseGroup.Form1.resources
+D:\zhangzx\工作\Documents\GitHub\CJK_G\obj\Debug\CJK.vbproj.GenerateResource.Cache
+D:\zhangzx\工作\Documents\GitHub\CJK_G\bin\Debug\CJK_G.exe.manifest
+D:\zhangzx\工作\Documents\GitHub\CJK_G\bin\Debug\CJK_G.application
+D:\zhangzx\工作\Documents\GitHub\CJK_G\bin\Debug\CJK_G.exe
+D:\zhangzx\工作\Documents\GitHub\CJK_G\bin\Debug\CJK_G.pdb
+D:\zhangzx\工作\Documents\GitHub\CJK_G\bin\Debug\CJK_G.xml
+D:\zhangzx\工作\Documents\GitHub\CJK_G\obj\Debug\CESI_Info_ChineseGroup.Resources.resources
+D:\zhangzx\工作\Documents\GitHub\CJK_G\obj\Debug\CJK_G.exe.manifest
+D:\zhangzx\工作\Documents\GitHub\CJK_G\obj\Debug\CJK_G.application
+D:\zhangzx\工作\Documents\GitHub\CJK_G\obj\Debug\CJK_G.exe
+D:\zhangzx\工作\Documents\GitHub\CJK_G\obj\Debug\CJK_G.xml
+D:\zhangzx\工作\Documents\GitHub\CJK_G\obj\Debug\CJK_G.pdb

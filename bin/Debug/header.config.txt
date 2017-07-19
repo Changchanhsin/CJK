@@ -4,22 +4,22 @@
   <td width="6%" style="border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
   <p align="center" style="text-align:center;font-size:11pt">CJK_2015<br/>Seq. No.</p>
   </td>
-  <td width="8%" colspan=2 style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <td width="18%" colspan=2 style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
   <p align="center" style="text-align:center;font-size:11pt;layout-grid-mode:char">Kxi Rad<br/>IDS<br/>SC TS</p>
   </td>
-  <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <td width="8%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
   <p align="center" style="text-align:center;font-size:11pt">G</p>
   </td>
-  <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <td width="8%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
   <p align="center" style="text-align:center;font-size:11pt">T</p>
   </td>
-  <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <td width="8%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
   <p align="center" style="text-align:center;font-size:11pt">K</p>
   </td>
-  <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <td width="8%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
   <p align="center" style="text-align:center;font-size:11pt">SAT</p>
   </td>
-  <td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <td width="8%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">
   <p align="center" style="text-align:center;font-size:11pt">UTC</p>
   </td>
   <td width="36%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt">

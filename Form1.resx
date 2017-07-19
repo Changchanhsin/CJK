@@ -117,25 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="TextBox8.Text" xml:space="preserve">
+    <value>First Stroke
+UTC Code
+T/S (0/1) Flag
+Similar Ideographs
+UTC Evidence (Figure No.)
+UTC Evidence (Title)
+UTC Evidence (Location)
+UTC Ext. F2 Serial No.
+T References to evidence documents A
+T References to evidence documents B
+T File name of evidence image
+K Ref. to Evidence doc
+K file name of evidence image
+G Ref. to Evidence doc
+G Page No. in Evidence file(optional)
+G Row No. in Evidence file(optional)
+G Position in the Row (optional)
+G file name of evidence image
+SAT Evidence
+UK Ref. to Evidence doc
+UK file name of evidence image
+ UK Font code point
+UK Font glyph
+UK Other source references
+UK Mapping to traditional or simplified character
+UK Note</value>
+  </data>
   <data name="TextBox4.Text" xml:space="preserve">
     <value> &lt;tr&gt;
   &lt;td rowspan="3" style="border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:46pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[bmp]" width="32" height="32" border="0"&gt;&lt;br/&gt;[CJK_F v1.0 Seq. No.]&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;[Sequence Number]&lt;/p&gt;
   &lt;/td&gt;
   &lt;td colspan="2" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center"&gt;[KangXi Radical Code]&lt;/p&gt;
+  &lt;p align="center"&gt;[Kangxi Radical] &amp;#[_kangxiRadical_];&lt;/p&gt;
   &lt;/td&gt;
   &lt;td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[G Glyph Image file name]" width="32" height="32" border="0"&gt;&lt;br/&gt;[G Source Reference]&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[G Image]" width="32" height="32" border="0"&gt;&lt;br/&gt;[G Source]&lt;/p&gt;
   &lt;/td&gt;
   &lt;td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[J Glyph Image file name]" width="32" height="32" border="0"&gt;&lt;br/&gt;[J Source Reference]&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[T Image]" width="32" height="32" border="0"&gt;&lt;br/&gt;[T Source]&lt;/p&gt;
   &lt;/td&gt;
   &lt;td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[K Glyph Image file name]" width="32" height="32" border="0"&gt;&lt;br/&gt;[K Source Reference]&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[K Image]" width="32" height="32" border="0"&gt;&lt;br/&gt;[K Source]&lt;/p&gt;
   &lt;/td&gt;
   &lt;td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[SAT Glyph Image file name]" width="32" height="32" border="0"&gt;&lt;br/&gt;[SAT Source Reference]&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[SAT Image]" width="32" height="32" border="0"&gt;&lt;br/&gt;[SAT Source]&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
+  &lt;p align="center" style="text-align:center;font-size:8pt"&gt;&lt;img src="img/[UTC Image]" width="32" height="32" border="0"&gt;&lt;br/&gt;[UTC Source]&lt;/p&gt;
   &lt;/td&gt;
   &lt;td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
   &lt;p align="center" style="text-align:left;font-size:10pt"&gt;[Disscussion Record]&lt;/p&gt;
@@ -143,7 +174,7 @@
  &lt;/tr&gt;
  &lt;tr&gt;
   &lt;td colspan="2" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:10pt"&gt;&amp;#[kangxiRadical];&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:10pt"&gt;[IDS]&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
@@ -151,7 +182,7 @@
   &lt;p align="center" style="text-align:center;font-size:10pt"&gt;[Stroke Count]&lt;/p&gt;
   &lt;/td&gt;
   &lt;td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:10pt"&gt;[First Stroke]&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:10pt"&gt;[_strokes_]&lt;/p&gt;
   &lt;/td&gt;
   &lt;/tr&gt;</value>
   </data>
@@ -159,25 +190,28 @@
     <value>&lt;p style="text-align:center"&gt;[title]&lt;/p&gt;
 &lt;table border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none" width="100%"&gt;
  &lt;tr&gt;
-  &lt;td width="10%" style="border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;CJK_F&lt;br/&gt;Seq. No.&lt;/p&gt;
+  &lt;td width="6%" style="border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt"&gt;
+  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;CJK_2015&lt;br/&gt;Seq. No.&lt;/p&gt;
   &lt;/td&gt;
-  &lt;td width="13%" colspan=2 style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:11pt;layout-grid-mode:char"&gt;Kxi&lt;br/&gt;Rad&lt;br/&gt;Stroke Fs&lt;/p&gt;
-  &lt;/td&gt;
-  &lt;td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;G Hz&lt;br/&gt;G Source&lt;/p&gt;
+  &lt;td width="8%" colspan=2 style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
+  &lt;p align="center" style="text-align:center;font-size:11pt;layout-grid-mode:char"&gt;Kxi Rad&lt;br/&gt;IDS&lt;br/&gt;SC TS&lt;/p&gt;
   &lt;/td&gt;
   &lt;td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;J Hz&lt;br/&gt;J Source&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;G&lt;/p&gt;
   &lt;/td&gt;
   &lt;td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;K Hz&lt;br/&gt;K Source&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;T&lt;/p&gt;
   &lt;/td&gt;
   &lt;td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
-  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;Sat Hz&lt;br/&gt;Sat Source&lt;/p&gt;
+  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;K&lt;/p&gt;
   &lt;/td&gt;
-  &lt;td width="37%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
+  &lt;td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
+  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;SAT&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="10%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
+  &lt;p align="center" style="text-align:center;font-size:11pt"&gt;UTC&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="36%" style="border:solid windowtext 1.0pt;border-left:none;padding:0cm 5.4pt 0cm 5.4pt"&gt;
   &lt;p align="center" style="text-align:center;font-size:11pt"&gt;Discussion Record&lt;/p&gt;
   &lt;/td&gt;
  &lt;/tr&gt;</value>

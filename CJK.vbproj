@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1D2D45BD-793E-4940-A6A3-16FCC6FFC77A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>CESI_Info_ChineseGroup.My.MyApplication</StartupObject>
+    <StartupObject>CESI_Info_ChineseGroup.Form1</StartupObject>
     <RootNamespace>CESI_Info_ChineseGroup</RootNamespace>
     <AssemblyName>CJK_G</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -36,6 +36,7 @@
     <ApplicationVersion>0.1.5.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationIcon>CharPage.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -155,6 +156,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CharPage.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
