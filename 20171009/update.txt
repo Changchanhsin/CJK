@@ -1,0 +1,9 @@
+[from xls]
+Sequence Number  ==>  Seq. No.
+
+[to xls]
+KangXi Radical  ==>  Kangxi Radical
+K Srouce  ==>  K Source
+
+[add to xls]
+Disscussion Record

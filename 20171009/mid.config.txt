@@ -1,0 +1,45 @@
+ <tr>
+  <td rowspan="3" style="border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:46pt">
+  <p align="center" style="text-align:center;font-size:8pt">[Seq. No.]</p>
+  </td>
+  <td colspan="2" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center">[Kangxi Radical]  <font face="Meiryo">&#[_kangxiRadical_];</font></p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[G Image]" width="32" height="32" border="0"><br/>[G Source]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[K Image]" width="32" height="32" border="0"><br/>[K Source]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[SAT Image]" width="32" height="32" border="0"><br/>[SAT Source]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[T Image]" width="32" height="32" border="0"><br/>[T Source]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[UTC Image]" width="32" height="32" border="0"><br/>[UTC Source]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[UK Image]" width="32" height="32" border="0"><br/>[UK Source]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:8pt"><img src="img/[V Image]" width="32" height="32" border="0"><br/>[V Source]</p>
+  </td>
+  <td rowspan="3" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:left;font-size:10pt">[Disscussion Record]</p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:10pt">[IDS]</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:10pt">[Stroke Count]</p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p align="center" style="text-align:center;font-size:10pt">[_strokes_]</p>
+  </td>
+  </tr>
